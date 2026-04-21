@@ -67,6 +67,26 @@ This repository supports the following tasks:
 
 ---
 
+## Reproducibility Guide
+
+The main executable files in this repository are the Jupyter notebooks (`.ipynb`) in each training folder.
+
+For example:
+
+- `Train_20/DM_Operator_form_2_train20.ipynb`
+- corresponding notebooks in `Train_40/`, `Train_80/`, `Train_120/`, and `Train_160/`
+
+These notebooks contain the main workflow for model training, inversion, and temperature-field prediction.
+
+The other files in each training folder are supporting data or generated outputs, including:
+
+- `.npy`: predicted temperature fields or sensor observations
+- `.npz`: processed dataset used in the corresponding experiment
+- `.pt`: saved PyTorch model
+- `.xlsx`: recorded loss components or postprocessed results
+
+---
+
 ## Notes
 
 - The original SFCC data points were not generated in this repository. Please refer to the Zenodo archive above for the raw measurements.
