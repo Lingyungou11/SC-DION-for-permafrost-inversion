@@ -1,6 +1,6 @@
 # SC-DION: A Solver-Consistent Deep Inverse Operator Network for Self-Supervised Constitutive Inversion in Frozen Soils
 
-This repository contains the codes and datasets associated with the manuscript:
+This repository contains the code and datasets associated with the manuscript:
 
 **“SC-DION: A Solver-Consistent Deep Inverse Operator Network for Self-Supervised Constitutive Inversion in Frozen Soils”**
 
@@ -10,11 +10,11 @@ The proposed framework couples an inverse neural operator with a forward heat-tr
 
 ## Environment
 
-The codes were developed and tested using:
+The code was developed and tested using:
 
 - **Python**
 - **PyTorch**
-- **NVIDIA GeForce RTX 4070 Super GPU**
+- **NVIDIA GeForce RTX 4070 SUPER GPU**
 
 GPU acceleration is recommended for model training and inversion.
 
@@ -35,7 +35,7 @@ The original SFCC measurement points are available at Zenodo:
 ---
 
 ### `Train_20/` to `Train_160/`
-These folders contain the complete codes for model training and evaluation under different training dataset sizes:
+These folders contain the complete code for model training and evaluation under different training dataset sizes:
 
 - `Train_20/`: training with 20 temperature fields
 - `Train_40/`: training with 40 temperature fields
@@ -43,7 +43,7 @@ These folders contain the complete codes for model training and evaluation under
 - `Train_120/`: training with 120 temperature fields
 - `Train_160/`: training with 160 temperature fields
 
-Among them, **`Train_80/`** additionally includes the full codes for the three generalization settings discussed in the study.
+Among them, **`Train_80/`** additionally includes the full code for the three generalization settings discussed in the study.
 
 ---
 
@@ -52,7 +52,7 @@ This folder contains:
 
 - inversion results under different training dataset sizes
 - forward temperature prediction results under different training dataset sizes
-- visualization codes for the **scaling-law analysis**
+- visualization code for the **scaling-law analysis**
 
 ---
 
@@ -61,7 +61,7 @@ These folders contain the training code, datasets, trained models, and results f
 
 ---
 
-### `Noise data analysis/`, `Pertubation of sensor depth/`, and `Missing sensor data/`
+### `Noise data analysis/`, `Perturbation of sensor depth/`, and `Missing sensor data/`
 These folders contain the code, datasets, and results for evaluating the robustness of SC-DION to observational noise, sensor-depth perturbations, and missing sensor observations.
 
 ---
