@@ -56,6 +56,16 @@ This folder contains:
 
 ---
 
+### `Baseline_supervised_DION/` and `Baseline_two parameter/`
+These folders contain the training code, datasets, trained models, and results for evaluating the in-distribution and out-of-distribution generalization of the two baseline models using 80 training cases.
+
+---
+
+### `Noise data analysis/`, `Pertubation of sensor depth/`, and `Missing sensor data/`
+These folders contain the code, datasets, and results for evaluating the robustness of SC-DION to observational noise, sensor-depth perturbations, and missing sensor observations.
+
+---
+
 ## Main Contents
 
 This repository supports the following tasks:
